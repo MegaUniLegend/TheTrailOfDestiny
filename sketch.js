@@ -8,7 +8,7 @@ var comingSoon, comingSoonSub;
 
 function setup() {
 
-  createCanvas(windowWidth-10, windowHeight-10);
+  createCanvas(windowWidth, windowHeight);
 
   newJoineeTitle = createElement("h1","Hello There Stranger!");
   newJoineeTitle.position(windowWidth/2.575,windowHeight/10)
