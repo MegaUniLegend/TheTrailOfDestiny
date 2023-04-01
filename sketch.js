@@ -106,10 +106,10 @@ function setup() {
     leftarrow.addImage(leftarrowImg);
     leftarrow.scale = 0.05;
 
-    levelnametxt = createSprite(width/2,height/10, 500, 50);
-    difficultytxt = createSprite(width/2,height/2.5, 500, 50);
-    musictxt = createSprite(width/2, height/2.25, 500, 50);
-    creditstxt = createSprite(width/2, height/2.1, 500, 50);
+    //levelnametxt = createSprite(width/2,height/10, 500, 50);
+    //difficultytxt = createSprite(width/2,height/2.5, 500, 50);
+    //musictxt = createSprite(width/2, height/2.25, 500, 50);
+    //creditstxt = createSprite(width/2, height/2.1, 500, 50);
 
     objgrp = new Group();
     spikegrp = new Group();
