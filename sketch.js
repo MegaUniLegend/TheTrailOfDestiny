@@ -15,7 +15,7 @@ var infgameState, gameovertxt;
 var infrestartbutton, menureturnbutton;
 var jumphelptxt;
 var levelname, difficulty, music, credits;
-var levelnametxt, difficultytxt, musictxt, creditstxt;
+//var levelnametxt, difficultytxt, musictxt, creditstxt;
 var playlvlbutton;
 var levelstate, cubestate, gravitystate;
 var o11, o12, o13, o14;
@@ -211,10 +211,10 @@ function draw() {
         }
 
         textSize(30);
-        levelnametxt.text = levelname + "(Coming SOON)";
-        difficultytxt.text = "Difficulty:"+ difficulty;
-        musictxt.text = "Music: "+ music;
-        creditstxt.text = "Composer: "+ credits;
+       // levelnametxt.text = levelname + "(Coming SOON)";
+       // difficultytxt.text = "Difficulty:"+ difficulty;
+      //  musictxt.text = "Music: "+ music;
+      //  creditstxt.text = "Composer: "+ credits;
 
 
         if(levelstate === "play") {
@@ -404,12 +404,12 @@ function draw() {
     }
 
     //cube.debug = true;
-    console.log(cube.x);
-    console.log(cube.y);
-    console.log(gameState);
-    console.log(levelstate);
-    console.log(gravitystate);
-    drawSprites();
+   // console.log(cube.x);
+   // console.log(cube.y);
+   // console.log(gameState);
+  //  console.log(levelstate);
+  //  console.log(gravitystate);
+  //  drawSprites();
 
 }
 
