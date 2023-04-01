@@ -3,7 +3,7 @@ A really nice game for raging and just passing time,
 
 This game can be played online at (RECOMMENDED):
 
-MegaUniLegend.github.io/TheTrailOfDestiny
+https://MegaUniLegend.github.io/TheTrailOfDestiny
 
 It updates by itself, no hassles!
 
